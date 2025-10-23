@@ -1,0 +1,200 @@
+<!-- signature html5 -->
+<!DOCTYPE html>
+
+<!-- page web === html -->
+<html lang="en">
+  <head>
+    <!-- 1er enfant -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Barre de titre -->
+    <!-- titre de la page -->
+    <title>portfolio</title>
+    <!-- icone -->
+    <link
+      rel="shortcut icon"
+      href="https://icons.iconarchive.com/icons/graphicloads/seo-services/256/services-portfolio-icon.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <!-- 2eme enfant -->
+  <body>
+    <!-- entête de la page -->
+    <header>
+      <!-- barre de navigation -->
+      <nav id="nav-site">
+        <!-- image logo -->
+        <img src="./assets/Portfolio.jpg" alt="logo" width="150px" />
+        <!-- Nom de l'intérressé -->
+        <h3>Walid <span>Embeya</span></h3>
+        <!-- liste des sections : menu -->
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#resume">Resume</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- corps de la page -->
+    <main>
+      <!-- section Home -->
+      <section id="home">
+        <font color="red"><h2>Bienvenue</h2></font>
+        <p>
+          Je suis <strong>Walid Embeya</strong>, ingénieur en informatique et
+          développeur web. Je crée des interfaces claires et accessibles.
+        </p>
+      </section>
+    </main>
+
+    <!-- section About -->
+    <section id="about">
+      <font color="red"><h2>À propos de moi</h2></font>
+      <p>
+        Je participe à des projets open-source, j'anime des ateliers et je
+        partage mes ressources pédagogiques.
+      </p>
+      <p>
+        Basé à Tunis, je travaille surtout avec
+        <strong>HTML, CSS, JavaScript</strong> et <strong>React</strong>. J'aime
+        construire des expériences simples, rapides et belles.
+      </p>
+      <img src="assets/it.jpg" width="50%" alt="MaPhoto" />
+    </section>
+
+    <!-- section Work -->
+    <section id="work">
+      <font color="red"><h2>Projets sélectionnés</h2></font>
+      <article>
+        <img
+          src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800"
+          alt="To-Do app"
+        />
+        <h3>To-Do List (React)</h3>
+        <p>
+          Une application légère pour gérer les tâches quotidiennes avec
+          stockage local et filtres.
+        </p>
+      </article>
+
+      <article>
+        <img
+          src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800"
+          alt="Site recettes"
+        />
+        <h3>Site de recettes tunisiennes</h3>
+        <p>Recherche d'ingrédients, fiches recettes et partage social.</p>
+      </article>
+
+      <article>
+        <img
+          src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?w=800"
+          alt="Portfolio"
+        />
+        <h3>Portfolio personnel</h3>
+        <p>
+          Site de présentation responsive avec animations et section contact.
+        </p>
+      </article>
+    </section>
+
+    <!-- section Resume -->
+    <section id="resume">
+      <font color="red"><h2>Expérience Professionnlle</h2></font>
+      <!-- table -->
+      <table border="3">
+        <caption>
+          Ingénierie Génie Logiciel
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Stages et formations</th>
+            <th scope="col">Année</th>
+            <th scope="col">Lieu</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">HTML & CSS</th>
+            <td>2009</td>
+            <td>CFM</td>
+          </tr>
+          <tr>
+            <th scope="row">DBA Informix Dynamic Server</th>
+            <td>2013</td>
+            <td>IMEX</td>
+          </tr>
+          <tr>
+            <th scope="row">Full stack Web</th>
+            <td>2023</td>
+            <td>ACING</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+
+      <!-- video -->
+      <video controls width="50%">
+        <source src="./assets/video_IA.mp4" type="video/mp4" />
+        Si cette vidéo ne s'affiche pas installé le plugging
+      </video>
+
+      <!-- audio -->
+      <audio controls width="50%">
+        <source src="./assets/town-10169.mp3" type="audio/mp3" />
+        Si cette audio ne s'affiche pas installé le plugging
+      </audio>
+    </section>
+
+    <!-- section Contact -->
+    <section id="contact">
+      <font color="red"><h2>Contact</h2></font>
+      <!-- form -->
+      <form>
+        <label for="name">Nom complet</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="entrer votre nom et prénom..."
+        />
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required />
+        <br>
+        <label for="message">Message</label>
+        <br>
+        <textarea
+          name="message"
+          rows="3"
+          required
+        ></textarea><br>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+
+    <!-- pied de la page -->
+    <footer>
+      <center>
+        <p>&copy; 2025. Tous droits réservés</p>
+        <a href="#nav-site">Home</a>
+      </center>
+    </footer>
+  </body>
+</html>
